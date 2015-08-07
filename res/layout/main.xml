@@ -5,9 +5,38 @@
               android:layout_height="fill_parent"
         >
     <TextView
+            android:id="@+id/notificationBoard"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="Hello World, MyActivity"
             />
+    <!--<EditText-->
+            <!--android:id="@+id/inputUrl"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:editable="true"-->
+            <!--android:enabled="true"/>-->
+
+    <Button
+            android:id="@+id/triggerButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Go"
+            android:background="#ffffffff"
+            android:textColor="#000000"/>
+
+    <Button
+            android:id="@+id/subscribePageBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="New feed"
+            android:background="#ffffffff"
+            android:textColor="#000000"/>
+
+    <WebView android:id="@+id/webContainer"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent"
+             android:focusable="false"/>
+
 </LinearLayout>
 
